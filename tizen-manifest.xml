@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="my.package.privilege" version="1.0.0">
+    <profile name="wearable"/>
+    <ui-application appid="my.package.privilege" exec="privilege" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>privilege</label>
+        <icon>privilege.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+    </privileges>
+</manifest>
