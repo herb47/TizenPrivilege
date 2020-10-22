@@ -1,5 +1,7 @@
 #include "privilege.h"
 
+#include <privacy_privilege_manager.h>
+
 typedef struct appdata {
 	Evas_Object *win;
 	Evas_Object *conform;

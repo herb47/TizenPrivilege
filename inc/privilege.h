@@ -7,8 +7,6 @@
 #include <efl_extension.h>
 #include <dlog.h>
 
-#include <privacy_privilege_manager.h>
-
 #ifdef  LOG_TAG
 #undef  LOG_TAG
 #endif
